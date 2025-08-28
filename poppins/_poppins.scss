@@ -1,0 +1,59 @@
+// $font-path: '/public/fonts/poppins';
+$font-path: '/fonts/poppins';
+
+/* Poppins-400 */
+@font-face {
+  font-family: 'poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: url('#{$font-path}/Poppins-Regular.eot'); /* IE9 Compat Modes */
+  src:
+    local(''),
+    url('#{$font-path}/Poppins-Regular.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */ url('#{$font-path}/Poppins-Regular.woff2') format('woff2'),
+    /* Super Modern Browsers */ url('#{$font-path}/Poppins-Regular.woff') format('woff'),
+    /* Modern Browsers */ url('#{$font-path}/Poppins-Regular.ttf') format('truetype'),
+    /* Safari, Android, iOS */ url('#{$font-path}/Poppins-Regular.svg#poppins') format('svg'); /* Legacy iOS */
+}
+/* Poppins-500 */
+@font-face {
+  font-family: 'poppins';
+  font-style: normal;
+  font-weight: 500;
+  src: url('#{$font-path}/Poppins-Medium.eot'); /* IE9 Compat Modes */
+  src:
+    local(''),
+    url('#{$font-path}/Poppins-Medium.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */ url('#{$font-path}/Poppins-Medium.woff2') format('woff2'),
+    /* Super Modern Browsers */ url('#{$font-path}/Poppins-Medium.woff') format('woff'),
+    /* Modern Browsers */ url('#{$font-path}/Poppins-Medium.ttf') format('truetype'),
+    /* Safari, Android, iOS */ url('#{$font-path}/Poppins-Medium.svg#poppins') format('svg'); /* Legacy iOS */
+}
+/* Poppins-600 */
+@font-face {
+  font-family: 'poppins';
+  font-style: normal;
+  font-weight: 600;
+  src: url('#{$font-path}/Poppins-SemiBold.eot'); /* IE9 Compat Modes */
+  src:
+    local(''),
+    url('#{$font-path}/Poppins-SemiBold.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */ url('#{$font-path}/Poppins-SemiBold.woff2') format('woff2'),
+    /* Super Modern Browsers */ url('#{$font-path}/Poppins-SemiBold.woff') format('woff'),
+    /* Modern Browsers */ url('#{$font-path}/Poppins-SemiBold.ttf') format('truetype'),
+    /* Safari, Android, iOS */ url('#{$font-path}/Poppins-SemiBold.svg#poppins') format('svg'); /* Legacy iOS */
+}
+/* Poppins-700 */
+@font-face {
+  font-family: 'poppins';
+  font-style: normal;
+  font-weight: 700;
+  src: url('#{$font-path}/Poppins-Bold.eot'); /* IE9 Compat Modes */
+  src:
+    local(''),
+    url('#{$font-path}/Poppins-Bold.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */ url('#{$font-path}/Poppins-Bold.woff2') format('woff2'),
+    /* Super Modern Browsers */ url('#{$font-path}/Poppins-Bold.woff') format('woff'),
+    /* Modern Browsers */ url('#{$font-path}/Poppins-Bold.ttf') format('truetype'),
+    /* Safari, Android, iOS */ url('#{$font-path}/Poppins-Bold.svg#poppins') format('svg'); /* Legacy iOS */
+}
